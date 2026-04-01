@@ -3,7 +3,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const mascotasRoutes = require('../src/routes/mascotas');
+const mascotasRoutes = require('./src/routes/mascotas');
 
 // Middlewares
 app.use(cors());
